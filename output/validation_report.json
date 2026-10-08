@@ -1,0 +1,102 @@
+{
+  "status": "passed",
+  "workbook": "JBossEAP81_Aurora84_Timeout_DeepDive.xlsx",
+  "sha256": "7b08d4660b3f9c6c297f0d101fb4cd4bdc88fe6eeb6b820f7584a5dbf1024060",
+  "sheets": 23,
+  "sources": 42,
+  "narrative_rows": 270,
+  "populated_cells": 2720,
+  "formulas": 14,
+  "hyperlinks": 360,
+  "layout_rows": 419,
+  "formula_scenarios": [
+    {
+      "scenario": "初期値",
+      "checked_results": 15,
+      "passed": true
+    },
+    {
+      "scenario": "個別Pなし・固定Q上書き",
+      "checked_results": 15,
+      "passed": true
+    },
+    {
+      "scenario": "SQL3本で予算不足",
+      "checked_results": 15,
+      "passed": true
+    },
+    {
+      "scenario": "JTA残り5秒・開始拒否予算",
+      "checked_results": 15,
+      "passed": true
+    },
+    {
+      "scenario": "JTA残り0・SQL実行拒否",
+      "checked_results": 15,
+      "passed": true
+    },
+    {
+      "scenario": "JTA残り負・SQL実行拒否",
+      "checked_results": 15,
+      "passed": true
+    },
+    {
+      "scenario": "JTAなし・固定Q",
+      "checked_results": 15,
+      "passed": true
+    },
+    {
+      "scenario": "false・個別Pなし",
+      "checked_results": 15,
+      "passed": true
+    },
+    {
+      "scenario": "false・個別P20",
+      "checked_results": 15,
+      "passed": true
+    },
+    {
+      "scenario": "SQLもsocketも期限なし",
+      "checked_results": 15,
+      "passed": true
+    },
+    {
+      "scenario": "端数R2.3",
+      "checked_results": 15,
+      "passed": true
+    },
+    {
+      "scenario": "端数R0.2",
+      "checked_results": 15,
+      "passed": true
+    },
+    {
+      "scenario": "外側Hが短い",
+      "checked_results": 15,
+      "passed": true
+    },
+    {
+      "scenario": "socketがSQLより短い",
+      "checked_results": 15,
+      "passed": true
+    },
+    {
+      "scenario": "XA非ゼロも実効なし",
+      "checked_results": 15,
+      "passed": true
+    }
+  ],
+  "truth_table_cases": 14,
+  "font": "Meiryo UI",
+  "measured_layout_checked": true,
+  "cached_formula_results_checked": true,
+  "preview_files": [
+    "output\\previews\\00_layout_preview.png",
+    "output\\previews\\01_layout_preview.png",
+    "output\\previews\\15_layout_preview.png",
+    "output\\previews\\22_layout_preview.png"
+  ],
+  "excel_com_display_check": "not performed: Excel COM activation failed with 0x80080005",
+  "runtime_tests": "not performed: no live EAP, Aurora, or application connection supplied",
+  "git_diff_check": "not applicable: workspace is not a Git repository; UTF-8 and whitespace checks passed"
+}
